@@ -1,2 +1,2 @@
-# RandomThingy
-Just a useless simple thing I made because I have nothing else to do
+# ClickScheduler
+Automate keyboard and mouse clicks, through a schedule. Not complete. Not all features work. WIP
