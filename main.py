@@ -77,7 +77,7 @@ def startSchedule():
 kb = Controller()
 
 root = Tk()
-root.title('NEClicker 0.01')    
+root.title('ClickScheduler 0.01')    
 
 root.geometry('300x400')
 root.pack_propagate(0)
