@@ -62,10 +62,14 @@ def deleteFromSchedule():
     scheduleBox.delete(END)
 
 def startSchedule():
+    time.sleep(3)
     print('Loop started')
     for i in range(len(schedule)):
         print('Schedule Key {}'.format(schedule[i]))
         for x in range(int(scheduleLoop[i])):
+            time.sleep(int(scheduleDelay[i]))
+            kb.press(schedule[i])
+            kb.release(schedule[i])
             print('delay = {}'.format(scheduleDelay[i]))
   
              
